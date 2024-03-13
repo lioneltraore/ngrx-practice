@@ -13,11 +13,11 @@ import { AuthActions } from '../action-types';
 
 export const authFeatureKey = 'auth';
 
-export interface AppState {
+export interface AuthState {
   user: User;
 }
 
-export const initialAuthState: AppState = {
+export const initialAuthState: AuthState = {
   user: undefined
 }
 
